@@ -65,13 +65,3 @@ Assumindo que o projeto esteja no diretório `miniprojeto1` no seu servidor loca
     * Acesso via: `http://localhost/miniprojeto1/`
 * **Painel Administrativo (Back-end):**
     * Acesso via: `http://localhost/miniprojeto1/admin/`
-
-## 🔐 Aviso de Segurança
-
-**Importante:** O código deste projeto utiliza concatenação direta de variáveis em consultas SQL. Este padrão, embora funcional, é **vulnerável a ataques de SQL Injection**. Em um cenário de produção, é altamente recomendado o uso de **Prepared Statements** (com `mysqli_prepare`) para maior segurança.
-
----
-
-### 📦 Resumo da Entrega
-
-A entrega inclui: O projeto em arquivo compactado (ZIP), o script SQL do Banco de Dados e esta documentação (`README.md`).
