@@ -1,5 +1,5 @@
 <?php
     $conexao = mysqli_connect("localhost", "root", "");
 
-    $db = mysqli_select_db($conexao, "ricksson caneco")
+    $db = mysqli_select_db($conexao, "techsolutions_db")
 ?>
